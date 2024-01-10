@@ -5368,6 +5368,61 @@ label {
 
 /* End Cart Area css
 ============================================================================================ */
+/* #form {
+  width: 300px;
+  margin: 20vh auto 0 auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+#form h1 {
+  color: #0f2027;
+  text-align: center;
+}
+
+#form button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: rgb(41, 57, 194);
+  border: none;
+  border-radius: 4px;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+} */
 /* End Cart Area css
 ============================================================================================ */
 .check_title h2 {
@@ -5395,6 +5450,8 @@ label {
 }
 .returning_customer .contact_form .form-group {
   margin-bottom: 20px;
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
 }
 .returning_customer .contact_form .form-group input {
   border: 1px solid #eeeeee;
@@ -5404,6 +5461,7 @@ label {
   font-family: "Roboto", sans-serif;
   color: #777777;
   font-weight: normal;
+  margin: 5rem;
 }
 .returning_customer .contact_form .form-group input.placeholder {
   font-size: 14px;
@@ -5453,6 +5511,84 @@ label {
   color: #777777;
   font-weight: normal;
 }
+.returning_customer .contact_form .form-group input:focus {
+  outline: 0;
+}
+
+.returning_customer .contact_form .form-group.success input {
+  border-color: #09c372;
+}
+
+.returning_customer .contact_form .form-group.error input {
+  border-color: #ff3860;
+}
+
+.returning_customer .contact_form .form-group .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+/* ====================form validation=========== */
+/* body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  font-family: "Poppins", sans-serif;
+}
+
+#form {
+  width: 300px;
+  margin: 20vh auto 0 auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+#form h1 {
+  color: #0f2027;
+  text-align: center;
+}
+
+#form button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: rgb(41, 57, 194);
+  border: none;
+  border-radius: 4px;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+} */
 
 .p_star {
   display: inline-block;
@@ -6360,13 +6496,14 @@ label {
   font-size: 14px;
   line-height: 29px;
   border: 0px;
-  width: 100%;
+  width: 80% !important;
   font-weight: 300;
   color: #fff;
   padding-left: 20px;
   border-radius: 45px;
   z-index: 0;
   background: #ffba00;
+  margin-left: 5rem !important;
 }
 .blog_right_sidebar .search_widget .input-group .form-control.placeholder {
   color: #fff;
@@ -6820,7 +6957,7 @@ label {
   background: #fff;
   border: none;
   border-radius: 0px;
-  width: 100%;
+  width: 80%;
   font-size: 14px;
   color: #777777;
   border: 1px solid transparent;

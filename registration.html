@@ -201,9 +201,9 @@
               <h3>Register Here</h3>
               <form
                 class="row login_form"
-                action="contact_process.php"
+                action="/"
                 method="post"
-                id="contactForm"
+                id="form"
                 novalidate="novalidate"
               >
                 <div class="row">
@@ -211,22 +211,22 @@
                     <input
                       type="text"
                       class="form-control"
-                      id="first-name"
+                      id="full-name"
                       name="name"
-                      placeholder="First-name"
+                      placeholder="Full-Name"
                       onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'First-name'"
+                      onblur="this.placeholder = 'Full-Name'"
                     />
                   </div>
                   <div class="col-md-6 form-group">
                     <input
                       type="text"
                       class="form-control"
-                      id="last-name"
+                      id="username"
                       name="name"
-                      placeholder="Last-name"
+                      placeholder="User-Name"
                       onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Last-name'"
+                      onblur="this.placeholder = 'username'"
                     />
                   </div>
                   
@@ -234,10 +234,10 @@
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input
-                      type="email"
+                      type="text"
                       class="form-control"
                       id="email"
-                      name="name"
+                      name="email"
                       placeholder="Enter Your Email"
                       onfocus="this.placeholder = ''"
                       onblur="this.placeholder = 'Enter Your Email'"
@@ -249,7 +249,7 @@
                       type="password"
                       class="form-control"
                       id="password"
-                      name="name"
+                      name="password"
                       placeholder="Set Password"
                       onfocus="this.placeholder = ''"
                       onblur="this.placeholder = 'Set Password'"
